@@ -2,14 +2,13 @@
 springboot + dubbo +javaconfig
 
 ## introduction
-zookeeper
-dubbo
+dubbo+zookeeper
 springboot
 no-xml
 
 ## structure
 
-  dubbo-|(parent)
-	    |--api  (remote service interface)
-	    |--consumer
-	    |--provider
+- dubbo  (parent)
+- api   (remote service interface)
+- consumer (remote  service consumer)
+- provider  (remote service provider)
